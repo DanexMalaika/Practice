@@ -25,7 +25,7 @@
     padding: 10px;
     flex-direction: row;
     gap: 15px;
-    background-color: #ffffff;
+    background-color: yellow;
     border: 1px solid #cccccc;
     border-radius: 3px;
 
@@ -38,17 +38,36 @@
     border-top: 1px solid #eeeeee;
     margin-top: 20px;
     background-color: black;
+    width: 100%;
+    border-radius: 5px;
+    
 
 
 }
 .about-section{
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: red;
     border: 1px solid #cccccc;
     border-radius: 3px;
     display: flex;
     flex-direction: row;
     gap: 15px;
     
+}
+.article{
+    flex: 1;
+    padding: 10px;
+    background-color: #abcdd1;
+    border: 1px solid #b2ebf2;
+    border-radius: 3px;
+
+}
+.main-article{
+    flex: 1;
+    padding: 10px;
+    background-color: #ad4b89;
+    border: 1px solid #f2b2c4;
+    border-radius: 3px;
+
 }
